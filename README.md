@@ -8,9 +8,10 @@ _"Find one example of a mobile app that has an interface that you consider 'good
 
 Good Interface - Currency Plus
 
-![Currency Plus Screenshot 1](CurrencyPlus1.jpg)
+<img src = "CurrencyPlus1.jpg" width = "200">
 
-![Currency Plus Screenshot 2](CurrencyPlus2.jpg)
+<img src = "CurrencyPlus2.jpg" width = "200">
+
 
 - I like how this app always has the number input  widget open.
 - This app is really straight-forward. Choose the currency that corresponds with the flag of the country from the drop down list. Click the text field and input the amount, the other currencies update in real time. There is no need to press any button to get the computation.
@@ -18,7 +19,7 @@ Good Interface - Currency Plus
 
 Bad (confusing) Interface - Facebook
 
-![Facebook Screenshot](Facebook.jpg)
+<img src = "Facebook.jpg" width = "200">
 
 - I find the Facebook and the Facebook app have become more and more cluttered and confusing over the years as they are trying to adopt features that their competitors have.
 - I have confused the "What's on your mind?" text field with search on several occasions. Maybe because an open text field near the top of an app is usually for something specific or search?
@@ -37,7 +38,7 @@ _"Consider what it means for a mobile interface to be 'usable'. What types of th
 - Phone apps especially should avoid clutter. The screens are too small and our thumbs are too big to deal with small text/buttons/widgets.
 - Apps should load quickly or inform the user in some way that it is loading so the user doesn't think that the app is broken or that it is frozen.
 - Apps should be easily closeable.
-- Apps should ask for permissions, and they should also avoid using any unnecessary permissions. 
+- Apps should ask for permissions, and they should also avoid using any unnecessary permissions.
 - An app should be easier and quicker to use than its web counterpart.
 - I think for almost all software that we are interacting with these days, that giving feedback should be really easy to do (I like how easy it is to give feedback on our course on ZyBooks). There could be a list kept in the back-end for users who tend to give appropriate feedback.
 - Activities or screens should be focused on one task.
