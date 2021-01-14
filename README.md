@@ -15,7 +15,7 @@ Good Interface - Currency Plus
 
 - I like how this app always has the number input  widget open.
 - This app is really straight-forward. Choose the currency that corresponds with the flag of the country from the drop down list. Click the text field and input the amount, the other currencies update in real time. There is no need to press any button to get the computation.
--Near the top, there is information for when the values of the currencies were last updated which is important info for a currency conversion app.
+- Near the top, there is information for when the values of the currencies were last updated which is important info for a currency conversion app.
 
 Bad (confusing) Interface - Facebook
 
