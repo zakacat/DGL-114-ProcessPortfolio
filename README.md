@@ -8,9 +8,9 @@
 
 ###### Good Interface - Currency Plus
 
-<img src = ".git\img\CurrencyPlus1.jpg" width = "200">
+<img src = "img\CurrencyPlus1.jpg" width = "200">
 
-<img src = ".git\img\CurrencyPlus2.jpg" width = "200">
+<img src = "img\CurrencyPlus2.jpg" width = "200">
 
 
 - I like how this app always has the number input  widget open.
@@ -19,7 +19,7 @@
 
 ###### Bad (confusing) Interface - Facebook
 
-<img src = ".git\img\Facebook.jpg" width = "200">
+<img src = "img\Facebook.jpg" width = "200">
 
 - I find the Facebook and the Facebook app have become more and more cluttered and confusing over the years as they are trying to adopt features that their competitors have.
 - I have confused the "What's on your mind?" text field with search on several occasions. Maybe because an open text field near the top of an app is usually for something specific or search?
@@ -78,7 +78,7 @@ Storage * | Potentially Dangerous| The app can alter my storage and store photos
 
 **View**
 
-<img src = ".git\img\Screenshot_20210122-070301_Voice Recorder.jpg" width = "600">
+<img src = "img\Screenshot_20210122-070301_Voice Recorder.jpg" width = "600">
 
 * Primary color is Grey
 * Secondary color is Black
@@ -144,4 +144,4 @@ The article that I chose was Text Fields ([Source](https://material.io/component
 * There are two types of text fields, filled and outlined
 * You can also apply themes to the text fields.
 
-*There is soooooo much useful information in here. I will definitely be back here, probably for the final assignment or maybe past that if I decide to continue with app building. 
+*There is soooooo much useful information in here. I will definitely be back here, probably for the final assignment or maybe past that if I decide to continue with app building.
