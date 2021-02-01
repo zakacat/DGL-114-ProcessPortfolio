@@ -221,7 +221,7 @@ onTouch()
 
 >_"After reading chapter 3.5 - Table, Grid and Frame Layouts visit material.io and do a search for one of 'table', 'grid' or 'frame'. Choose one of the articles in the search results that most closely relate to what you learned about tables, grids or frames from chapter 3.5 and read through it. Summarize what you've learned in your Process Portfolio."_
 
-I chose the article about spacing methods. Hopefully, this will explain a bit about what the jargon represents and how spacing affects the display on different devices.
+I chose the article about spacing methods ([Source](https://material.io/design/layout/spacing-methods.html)). Hopefully, this will explain a bit about what the jargon represents and how spacing affects the display on different devices.
 
 * All components align to a 8dp square baseline grid
 * Icons, type, and some elements within a component align with a 4dp grid.
@@ -233,13 +233,13 @@ any components
 		- measured vertically and horizontally
 		- does not need to span the whole height of the layout
 	* Dimensions = describe the width and height of a component
-      - Some components only have a height dimension as they are designed to fit the width of a view port.
-      - Component dimensions tend to follow the 8dp grid baseline
+		- Some components only have a height dimension as they are designed to fit the width of a view port.
+		- Component dimensions tend to follow the 8dp grid baseline
 	* Alignments = the placement of elements in a component
-	 - Keylines are established when elements are placed out of the 8dp grid
-	 - Keylines can be used to consistently line up other elements
-     - Keylines can be adjusted to create more or less space between elements
-* Containers are adjustable shapes that are used to hold UI elements like text or buttons. 
+		- Keylines are established when elements are placed out of the 8dp grid
+		- Keylines can be used to consistently line up other elements
+		- Keylines can be adjusted to create more or less space between elements
+* Containers are adjustable shapes that are used to hold UI elements like text or buttons.
 * To maintain consistency of the layout, try to use consistent aspect ratios .
 * Flexible ratios can be used with containers to match columns and image height.
-* Touch targets (is the interaction area of a touch UI element) should be 48 x 48 dp with 8 dp padding to make it easier to press the item, I suppose.
+* Touch targets (is the interaction area of a touch UI element) should be 48 x 48dp with 8dp padding to make it easier to press the item, I suppose.
