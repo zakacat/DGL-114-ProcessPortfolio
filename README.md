@@ -126,7 +126,7 @@ There are no extra preliminary input fields… so probably no parameters for the
 #### :octocat: Activity 0203:
 *I understand that only two activities per week are necessary, but I would like to do three if I can when I have the time.
 
->_"Visit material.io and examine some aspects of Material Design. Scroll through the site and take a look at one page/article that interests you in more detail. Summarize what you learn from the article in your Process Portfolio."_"
+>_"Visit material.io and examine some aspects of Material Design. Scroll through the site and take a look at one page/article that interests you in more detail. Summarize what you learn from the article in your Process Portfolio."_
 
 The article that I chose was Text Fields ([Source](https://material.io/components/text-fields/android)). I chose the implementation section instead of the design section as that is what I am more concerned with. Although I know design is important for a polished, highly-usable app, I feel I should focus on how to use the feature first.
 
@@ -145,3 +145,101 @@ The article that I chose was Text Fields ([Source](https://material.io/component
 * You can also apply themes to the text fields.
 
 *There is soooooo much useful information in here. I will definitely be back here, probably for the final assignment or maybe past that if I decide to continue with app building.
+
+#### :octocat: Activity 0301:
+
+>_"Choose a mobile app (Android or iOS) that you use frequently. Do your best to identify all the activities (or 'screens') in the app and write them down in your Process Portfolio. See if you can come up with some meaningful way to categorize all screens. (Note that some screens in some apps may have tabs and menus, etc. I'm looking here just for the screens themselves - so any time there is a clear full screen change in the app. Additionally, note that in iOS we do not refer to these as 'activities', but more commonly as 'views'. For the purposes of this activity the distinction is not too important)."_
+
+###### Chosen App - Adidas Run
+
+<img src = "img\AdidasMainActivity.jpg" width = "200">
+
+###### Activity
+
+The main activity is called Activity and it shows that it is selected at the bottom on the navigation bar. This activity includes a simple set-up to start recording your work out. It also displays information about the work like duration and GPS location.
+
+<img src = "img\AdidasMusic.jpg" width = "200">
+
+###### Music & Story Running
+
+Clicking the music icon brings up an activity to modify settings related to music that you can listen to while you workout.
+
+<img src = "img\AdidasSettings.jpg" width = "200">
+
+###### Activity Setup (General Settings)
+
+Clicking the sprocket icon (as usual) brings up the general settings activity. This is where you can change the activity type, imperial to metric, voice coach, and many other settings.
+
+<img src = "img\AdidasCommunity.jpg" width = "200">
+
+###### Community
+
+Clicking the community button in the navigation bar opens the activity for interacting with the social media aspects of the app. There is also and option to connect with Facebook friends which might open up a certain activity in the Facebook app.
+
+<img src = "img\AdidasNewsFeed.jpg" width = "200">
+
+###### News Feed
+
+Clicking the news feed button in the navigation bar opens an Instagram-like post scroller for your activities and activities of friends or people you follow.
+
+<img src = "img\AdidasProgress.jpg" width = "200">
+
+###### Progress
+
+Clicking the progress button in the navigation bar opens the activity for goal setting and stats.
+
+<img src = "img\AdidasProfile.jpg" width = "200">
+
+###### Profile
+
+Clicking the profile button in the navigation bar opens the activity for adjusting the information in your profile and image.
+
+###### Re-Categorization
+
+If I were to generally Categorize these, I would separate them into 2 sections of settings (or customizability) and function. It could be maybe 3 categories as settings, function, and social media. I think this might be more appropriate as the main function of this app is to record work outs, but a secondary function is to be able to share it.
+
+#### :octocat: Activity 0302:
+
+>_"Choose a mobile app (Android or iOS) that you use frequently and consider some of the more common Android event types are discussed in chapter 3.1 of the textbook. Which of these events does your app use? List a few different instances for each event in your app. Can you think of other events that your app might use that are not discussed in chapter 3.1?"_
+
+###### Chosen App - Adidas Run
+
+*Events used :*
+
+onClick()
+* this app uses the click to navigate thru almost the whole app
+
+onLongClick()
+* long clicking on the output values for the exercise allow the user to customize which information is displayed.
+
+onTouch()
+* After the GPS is selected and expanded to take up the whole screen, the user can use the pinch gesture to zoom in or out of the map
+
+
+
+#### :octocat: Activity 0303:
+
+>_"After reading chapter 3.5 - Table, Grid and Frame Layouts visit material.io and do a search for one of 'table', 'grid' or 'frame'. Choose one of the articles in the search results that most closely relate to what you learned about tables, grids or frames from chapter 3.5 and read through it. Summarize what you've learned in your Process Portfolio."_
+
+I chose the article about spacing methods. Hopefully, this will explain a bit about what the jargon represents and how spacing affects the display on different devices.
+
+* All components align to a 8dp square baseline grid
+* Icons, type, and some elements within a component align with a 4dp grid.
+* Type (Text) aligns to a 4dp baseline grid, but this can easily be overridden if the type is within
+any components
+* Spacing methods
+	* Padding = the space between elements in a component
+		- measured in increments of 4dp or 8dp
+		- measured vertically and horizontally
+		- does not need to span the whole height of the layout
+	* Dimensions = describe the width and height of a component
+      - Some components only have a height dimension as they are designed to fit the width of a view port.
+      - Component dimensions tend to follow the 8dp grid baseline
+	* Alignments = the placement of elements in a component
+	 - Keylines are established when elements are placed out of the 8dp grid
+	 - Keylines can be used to consistently line up other elements
+     - Keylines can be adjusted to create more or less space between elements
+* Containers are adjustable shapes that are used to hold UI elements like text or buttons. 
+* To maintain consistency of the layout, try to use consistent aspect ratios .
+* Flexible ratios can be used with containers to match columns and image height.
+* Touch targets (is the interaction area of a touch UI element) should be 48 x 48 dp with 8 dp padding to make it easier to press the item, I suppose.
