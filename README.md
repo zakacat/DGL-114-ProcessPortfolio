@@ -243,3 +243,70 @@ any components
 * To maintain consistency of the layout, try to use consistent aspect ratios .
 * Flexible ratios can be used with containers to match columns and image height.
 * Touch targets (is the interaction area of a touch UI element) should be 48 x 48dp with 8dp padding to make it easier to press the item, I suppose.
+
+#### :octocat: Activity 0401:
+>_"Choose a mobile app (Android or iOS) that you use frequently. Characterize the app's navigational model by examining how the user traverses through different activities (i.e. 'screens') in the app. Is the navigational model flat? (Meaning all activities have the same level of importance, perhaps each activity is accessible by swiping left or right?) Is there a hierarchical relationship between activities? (Meaning, is there a central, or main screen from which all other activities are accessed?) Discuss your findings in your Process Portfolio."_
+
+###### Chosen App - Meme Generator Free
+
+<img src = "img\MemeGeneratorMainScreen.jpg" width = "200">
+
+* The Main Activity displays the meme formats in a tile display. Though the user can swipe left and right, it does not start new activities, instead it cycles through different organizations of the memes. New is automatically displayed onCreate(), and the User can swipe through Favorite, Popular, etc.
+
+* The Memes Activity IS the Main Activity and from there the other activities can be selected, and it is a two step process. The user must click the Navigation Drawer and then they must click which activity they would like to open. This is probably a good plan when design is less of a concern than functionality and the large majority of the actions in the app will be started in the Main Activity.
+
+<img src = "img/MemeGeneratorNavigationBar.jpg" width = "200">
+
+* The Navigation Drawer directs the user to different activities which are organized into two categories, Create Memes and Other.
+
+* The Create Memes category is positioned higher in the overflow list, so it appears to have a higher importance or at least a higher relevance.
+
+<img src = "img/MemeGeneratorIThinkIAmFunny.jpg" width = "200">
+
+* It should be noted that when a meme is selected, a new activity is opened that has a larger version of the meme with various edit options.
+
+
+#### :octocat: Activity 0402:
+>_"After reading chapters 4.3 - Multiple activities and intents and 4.4 - Implicit intents of the textbook choose a mobile app (Android or iOS) that you use frequently and characterize all possible uses of intents in the app. Which other apps can be opened from your chosen app? Be thorough, and make sure you identify all possibilities. (Note that we do not refer to these as intents in iOS, but the distinction is not important here)."_
+
+###### Chosen App - Meme Generator Free
+
+<img src = "img/MemeGeneratorNavigationBar.jpg" width = "200">
+
+* Categorically, the Create Memes options in the Navigation Drawer call internal intents (explicit intents for other activities in the same application).
+
+<img src = "img/MemeGeneratorSavedMemes.jpg" width = "200">
+<img src = "img/MemeGeneratorEditableTemplates.jpg" width = "200">
+<img src = "img/MemeGeneratorVideoMemes.jpg" width = "200">
+<img src = "img/MemeGeneratorBackgrounds&Grids.jpg" width = "200">
+
+* Saved/Memes/ Combine, Editable Templates, Video Memes, Background & Grids, and Custom Memes all start their appropriate in-app activities.
+*	In the Other section of the Navigation Drawer is where many actions that use intents for external applications can be found.
+*	There are several examples of implicit intents or actions that attempt to open activities in other already installed applications:
+
+<img src = "img/MemeGeneratorEmailIntent.jpg" width = "200">
+<img src = "img/OutlookWriteEmailActivity.jpg" width = "200">
+
+
+* The email option recommends several applications in which to complete the action and, as expected, extra information is include. With the intent is included, the to address and subject.
+(This extra information is called Activity Startup Data and it can be added as a URI in the Intent constructor parameter or it can be added to the intent with the .putExtra method)
+
+<img src = "img/GooglePlayRateMemeGenerator.jpg" width = "200">
+
+*	The Rate App option is an example of explicit intent as it directly opens the google play store activity for rating this app. It appears that the Activity Startup Data contains the exact information for finding this app in the google play store.
+
+*	Share App option is an implicit intent that generates several different social media messaging app options that are available to complete the action.
+*	The GIF (pronounced with a hard G) Memes (Pronounced not like a crazy person) option in the Create Memes Category has an explicit intent which opens the Tenor gifs activity, but I am not sure if this is part of the Meme Generator app or if it is external.
+
+
+#### :octocat: Activity 0403:
+>_"After reading chapter 4.5 - App Bar visit material.io and read the article App bars: Bottom. After reading the article summarize the differences between the use of top and bottom app bars in your Process Portfolio."_
+
+**TOP** | **BOTH** | **BOTTOM**
+--------|----------|-----------
+Top Bars are considered with the principles of Persistent, Guiding, and Consistent| Both bars should locate the navigation drawer on the far left (but only on one of the bars at a time if the app is using a top bar and a bottom bar such as Instagram)| Bottom Bars are considered with the principles of Actionable, Flexible, and Ergonomic
+There are two _types_ of top bars to consider, regular bars and contextual bars (bars that pop up to help execute certain actions based on context)| Both bars can contain an Overflow Menu and Action Items which are normally located on the right (while using a FAB on a secondary screen, the action icons are on the left and the navigation drawer disappears)|It is common to have a Floating Action Button (FAB) on a bottom bar.
+A top bar can contain a title (or an action name in the case of a contextual bar)|Both bars can be hidden in relation to scrolling (where scroll direction affects when and how the bar is hidden)|When debating which action buttons should be placed where, most common actions should be placed where they are the easiest to access… at the bottom
+Two heights are available for mobile. Regular and Prominent| The overflow menu should be the last option on the right whether it is a top bar or a bottom bar| Bottom bars should be covered by temporary surfaces
+It is common to display images in a Prominent style top bar background as long as they don’t interfere with the visibility of the icons or text|:octocat:|:octocat:
+When debating which action buttons should be placed where, destructive actions should be harder to reach and thus on the top bar|:octocat:|:octocat:
