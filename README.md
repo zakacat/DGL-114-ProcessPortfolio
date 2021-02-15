@@ -2,7 +2,7 @@
 ## <ins> Intro to App Development </ins>
 ### By Zak (zakacat) Toews
 
-#### :octocat: Activity 0101:
+### :octocat: Activity 0101:
 
 >_"Find one example of a mobile app that has an interface that you consider 'good', and one example of a mobile app that has an interface that you consider 'poor' (or, if not poor, at least 'difficult'). Take some screenshots that highlight the best and worst of each app and provide a short description in your Process Portfolio justifying your choices."_
 
@@ -27,7 +27,7 @@
 - I prefer how the story feature works in other apps, where either it is hidden on a different screen or it is collapsed to just the icon representation of the person without a preview of their story.
 - The app could maybe benefit from a builder tool that could quickly rid the UI of elements that the user doesn't want?
 
-#### :octocat: Activity 0102:
+### :octocat: Activity 0102:
 
 >_"Consider what it means for a mobile interface to be 'usable'. What types of things do you expect to find in an app that is considered 'intuitive'? Make a list of as many 'usable' and 'intuitive' elements as you can think of (Hint: Don't restrict yourself only to buttons and widgets!)"_
 
@@ -43,7 +43,7 @@
 - I think for almost all software that we are interacting with these days, that giving feedback should be really easy to do (I like how easy it is to give feedback on our course on ZyBooks). There could be a list kept in the back-end for users who tend to give appropriate feedback.
 - Activities or screens should be focused on one task.
 
-#### :octocat: Activity 0201:
+### :octocat: Activity 0201:
 
 >_"Choose a mobile app (Android or iOS) that you use frequently. For this activity you will identify features and permissions associated with the app, as defined in section 2.1 of the textbook. Make a list of all features in your chosen app (if you don't know for sure, but try to be complete - you can see a full list of Android features here - scroll to the bottom), and a list of all permissions. For permissions you can check your app permission settings (whether iOS or Android) typically in the Apps or Permissions Manager section of the OS settings."_
 
@@ -70,7 +70,7 @@ Storage * | Potentially Dangerous| The app can alter my storage and store photos
 
 *As a note, the read/write storage permission is an almost mandatory permission for all apps and has only been enforced since API 19 ([Reference](https://developer.android.com/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE)).
 
-#### :octocat: Activity 0202:
+### :octocat: Activity 0202:
 
 >_"Choose a mobile app (Android or iOS) that you use frequently. Pick one screen in the app and identify elements of the Model, View and Controller in that screen. In other words, list out all View elements (i.e. everything you can see on screen), all Model elements (i.e. all data relevant to that screen) and all Controller elements (i.e. all the possible interactions on that screen that may modify the Model or View)."_
 
@@ -123,7 +123,7 @@ There are no extra preliminary input fields… so probably no parameters for the
 
 *I suppose the file size, duration, and storage info could be handled in the controller and it might be easier to use a recording class from the library and only have to make the controller from scratch.
 
-#### :octocat: Activity 0203:
+### :octocat: Activity 0203:
 *I understand that only two activities per week are necessary, but I would like to do three if I can when I have the time.
 
 >_"Visit material.io and examine some aspects of Material Design. Scroll through the site and take a look at one page/article that interests you in more detail. Summarize what you learn from the article in your Process Portfolio."_
@@ -146,7 +146,7 @@ The article that I chose was Text Fields ([Source](https://material.io/component
 
 *There is soooooo much useful information in here. I will definitely be back here, probably for the final assignment or maybe past that if I decide to continue with app building.
 
-#### :octocat: Activity 0301:
+### :octocat: Activity 0301:
 
 >_"Choose a mobile app (Android or iOS) that you use frequently. Do your best to identify all the activities (or 'screens') in the app and write them down in your Process Portfolio. See if you can come up with some meaningful way to categorize all screens. (Note that some screens in some apps may have tabs and menus, etc. I'm looking here just for the screens themselves - so any time there is a clear full screen change in the app. Additionally, note that in iOS we do not refer to these as 'activities', but more commonly as 'views'. For the purposes of this activity the distinction is not too important)."_
 
@@ -198,7 +198,7 @@ Clicking the profile button in the navigation bar opens the activity for adjusti
 
 If I were to generally Categorize these, I would separate them into 2 sections of settings (or customizability) and function. It could be maybe 3 categories as settings, function, and social media. I think this might be more appropriate as the main function of this app is to record work outs, but a secondary function is to be able to share it.
 
-#### :octocat: Activity 0302:
+### :octocat: Activity 0302:
 
 >_"Choose a mobile app (Android or iOS) that you use frequently and consider some of the more common Android event types are discussed in chapter 3.1 of the textbook. Which of these events does your app use? List a few different instances for each event in your app. Can you think of other events that your app might use that are not discussed in chapter 3.1?"_
 
@@ -217,7 +217,7 @@ onTouch()
 
 
 
-#### :octocat: Activity 0303:
+### :octocat: Activity 0303:
 
 >_"After reading chapter 3.5 - Table, Grid and Frame Layouts visit material.io and do a search for one of 'table', 'grid' or 'frame'. Choose one of the articles in the search results that most closely relate to what you learned about tables, grids or frames from chapter 3.5 and read through it. Summarize what you've learned in your Process Portfolio."_
 
@@ -244,7 +244,7 @@ any components
 * Flexible ratios can be used with containers to match columns and image height.
 * Touch targets (is the interaction area of a touch UI element) should be 48 x 48dp with 8dp padding to make it easier to press the item, I suppose.
 
-#### :octocat: Activity 0401:
+### :octocat: Activity 0401:
 >_"Choose a mobile app (Android or iOS) that you use frequently. Characterize the app's navigational model by examining how the user traverses through different activities (i.e. 'screens') in the app. Is the navigational model flat? (Meaning all activities have the same level of importance, perhaps each activity is accessible by swiping left or right?) Is there a hierarchical relationship between activities? (Meaning, is there a central, or main screen from which all other activities are accessed?) Discuss your findings in your Process Portfolio."_
 
 ###### Chosen App - Meme Generator Free
@@ -266,7 +266,7 @@ any components
 * It should be noted that when a meme is selected, a new activity is opened that has a larger version of the meme with various edit options.
 
 
-#### :octocat: Activity 0402:
+### :octocat: Activity 0402:
 >_"After reading chapters 4.3 - Multiple activities and intents and 4.4 - Implicit intents of the textbook choose a mobile app (Android or iOS) that you use frequently and characterize all possible uses of intents in the app. Which other apps can be opened from your chosen app? Be thorough, and make sure you identify all possibilities. (Note that we do not refer to these as intents in iOS, but the distinction is not important here)."_
 
 ###### Chosen App - Meme Generator Free
@@ -299,7 +299,7 @@ any components
 *	The GIF (pronounced with a hard G) Memes (Pronounced not like a crazy person) option in the Create Memes Category has an explicit intent which opens the Tenor gifs activity, but I am not sure if this is part of the Meme Generator app or if it is external.
 
 
-#### :octocat: Activity 0403:
+### :octocat: Activity 0403:
 >_"After reading chapter 4.5 - App Bar visit material.io and read the article App bars: Bottom. After reading the article summarize the differences between the use of top and bottom app bars in your Process Portfolio."_
 
 **TOP** | **BOTH** | **BOTTOM**
@@ -310,3 +310,46 @@ A top bar can contain a title (or an action name in the case of a contextual bar
 Two heights are available for mobile. Regular and Prominent| The overflow menu should be the last option on the right whether it is a top bar or a bottom bar| Bottom bars should be covered by temporary surfaces
 It is common to display images in a Prominent style top bar background as long as they don’t interfere with the visibility of the icons or text|:octocat:|:octocat:
 When debating which action buttons should be placed where, destructive actions should be harder to reach and thus on the top bar|:octocat:|:octocat:
+
+### :octocat: Activity 0501:
+>_"Choose a mobile app (Android or iOS) that you use frequently. For this activity you will characterize the app's navigational model (similar to activity 0401), but in this case you will draw a diagrammatic representation of the navigation. You may use the same app chosen for activity 0401. Include an image of your drawing in your Process Portfolio and briefly describe what you have learned from this activity."_
+###### Chosen App - Meme Generator Free
+<img src = "img\MemeGeneratorMainScreen.jpg" width = "200">
+
+Refer to Activity 0401 for more images of the app.
+
+**Figure 0501.1 Meme Generator Navigation Logic**
+![Meme Generator Navigation Logic](img/MemeGeneratorNavigationLogic.jpg)
+
+I have learned through this exercise, that this app is a bit difficult to follow. The categories make sense but only after speculation. This app could/could’ve probably benefit/ed from more layout design. There are a couple way that I would improve the layout.  I think I would try to organize the activities that lead to the Meme Editor together and in their own category. They could have used tabs, but the tabs are used to scroll horizontally through the different orderings of the meme lists (Top, popular, new, etc.). This app is not as clean overall as I would like it. The “Merch Store”, “Email”, “Rate App”, “More Apps”, and “Share App” would probably be better suited hidden away in “About” with “About” having a child activity as opposed to a dialog. “Video Memes” and “GIF Memes” are better suited in an extra category as they don’t quite fit with the other activities of similar importance.
+
+### :octocat: Activity 0502:
+>_"After reading chapters 5.5 -Handling touch and 5.6 -Touch gestures choose a mobile app (Android or iOS) that you use frequently and list all touch events and touch gestures used in the app. Be thorough and make sure you consider testing events and gestures you might not commonly use. Feel free to check your app's 'how to' manual (if such a thing exists). Summarize your findings in your Process Portfolio."_
+
+###### Chosen App - Adidas Run
+<img src = "img\AdidasMainActivity.jpg" width = "200">
+
+**TOUCH EVENTS**| **EXAMPLE**
+----------------|-------------
+Tap | Tap is equivalent to a mouse button click and is the basis for all user interaction in mobile apps.
+Double Tap | N/A :octocat:
+Long Press | This event is usable on the text views that display the workout stats. It allows the user to change the metric this is displayed in each text view.
+Scroll | This is used to scroll vertically through any of the activities that need to be scrolled through. For example, “Activity Setup”.
+Pinch & Spread | These two events are used to zoom in and zoom out of the map that displays the user’s location.
+Drag | This event is used to move that map. It a useful gesture as the user does not need to zoom out again to see other areas of the map.
+Fling | N/A :octocat:
+
+### :octocat: Activity 0503:
+>_"After reading chapter 5.3 -Dialogs visit material.io and read the article Dialogs. As you read carefully consider when the use of dialogs is appropriate. Summarize your findings in your Process Portfolio."_
+
+Dialogs in general are designed to force the attention of the user to critical information. The term used in the article for dialogs is modal window as the dialog is a child of the activity behind it.
+
+There are four categories of dialogs according to the material.io:
+
+* Alert Dialogs are meant to be used when information is important and the user should be interrupted from continuing. Alert dialogs should be used sparingly as they are meant to convey the most crucial of information. Overusing the alert dialog format might cause the user to ignore alert dialogs over time.
+
+* Simple Dialogs are meant to display a list of items that will affected by the user’s recent/current decisions. This a good alternative to an alert dialog as it simply informs the user of the changes that have or are about to occur.
+
+* Confirmation Dialogs are meant for decisions. They can replace in-screen selectors like radio buttons. A choice should be confirmed before the dialog disappears. Confirmation dialogs are similar to simple dialogs but require a confirmation button to be pressed. A negative action button should also be included.
+
+* Full Screen Dialogs are meant for a series of tasks. Full screen dialogs are the only type of dialogs that can display another type of dialog. Full screen dialogs take up the full screen, and they should be used with dialogs that use a keyboard or when the changes aren’t instantly saved. In my opinion, Full Screen Dialogs look like a great alternative to new activities.
