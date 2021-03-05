@@ -353,3 +353,44 @@ There are four categories of dialogs according to the material.io:
 * Confirmation Dialogs are meant for decisions. They can replace in-screen selectors like radio buttons. A choice should be confirmed before the dialog disappears. Confirmation dialogs are similar to simple dialogs but require a confirmation button to be pressed. A negative action button should also be included.
 
 * Full Screen Dialogs are meant for a series of tasks. Full screen dialogs are the only type of dialogs that can display another type of dialog. Full screen dialogs take up the full screen, and they should be used with dialogs that use a keyboard or when the changes aren’t instantly saved. In my opinion, Full Screen Dialogs look like a great alternative to new activities.
+
+### :octocat: Activity 0801:
+>_"Choose a relatively complex mobile app (Android or iOS) that you use frequently. For this activity you will characterize the app's data storage capabilities. Write down one example of each of the data storage strategies listed at the top of section 6.1 of the text. You may have to guess for some things, but try to identify data that you can for sure say belongs to each of the five strategies (e.g. it is pretty obvious that an app uses cloud storage as a strategy if your content is available on both your device and on your desktop)."_
+
+###### Chosen App - WhatsApp
+
+<img src = "img\WhatsApp-Logo.png" width = "200">
+
+*For maybe not-so-obvious reasons I haven't included any screenshots as they would contain predominantly private information of myself and my contacts.
+
+**STORAGE TYPES**| **EXAMPLE**
+----------------|-------------
+Shared Preferences| I am uncertain of the private values, but the things that might be stored in shared preferences are like night mode, read receipts, status, and privacy settings for personal information. |
+App-Specific Files| I imagine that there is a plethora of local private files for WhatsApp. Data that might fit into this category could be a database of time zones to automatically convert the time stamps on messages.|
+Shared Storage| Most of the audio, video, and photos appeared to be stored locally to the device and to the cloud (to be accessed by another device). These files are accessible thru the gallery of my Samsung device which also means it is accessible to other apps with proper permissions.|
+Database| From what I gather, the app only holds recent information to be immediately accessible in the app. Older messages or media is stored within a local database as well as in the cloud. These databases can be deleted from the local device to free up space if needed.|
+Cloud| This app holds most of it’s information or at least a cache of the information online somewhere in the cloud. Nothing appears to be easily delete-able with these kinds of apps.|
+
+
+### :octocat: Activity 0802:
+>_"To-Do List uses app-specific storage to store a text file made up of all to-do list items. Now imagine a more 'advanced' version of To-Do List and using the data storage strategies presented in section 6.1 as a guide, list other types of data that the 'advanced' To-Do List might store. Make sure to identify at least one type of data per strategy."_
+
+**STORAGE TYPES**| **EXAMPLE**
+----------------|-------------
+Shared Preferences| The app could store specific information like an opening message for the note or whether to show the list with numbers, bullets, or letters.  |
+App-Specific Files| If the user would like to make personal notes or maybe store crucial information with the to-do list app, maybe this info could be encrypted and stored locally.|
+Shared Storage| There could be a screenshot/photo option built into the app that could save the list to the gallery on the phone. Other apps (like social media) would then have access to it. |
+Database| As well as syncing the date with the lists taken, it is possible to organize the list with a calendar and have them stored in a database locally.|
+Cloud| To-Do List Super Ultimate Edition ™ could have an external pad that connects to Wi-Fi and has a magnet on the back so that the user can make notes by hand like a grocery list in the kitchen. This list then uploads instantaneously to the cloud and syncs with your phone, uses GPS location tracking to remind you to buy the groceries when you are at the local bakery, Walmart, butcher, etc…|
+
+### :octocat: Activity 0803:
+>_"After reading chapter 6 visit  material.io and read the article Lists. Consider the list in the To-Do List app. Does it meet the expectations of Material Design? Summarize your findings on your process portfolio."_
+
+**DIDS**| **DIDN'T DOS**
+----------------|-------------
+The list is organized into a single column of many rows.|	There are no spacing or line breaks that can lend to easier reading.|
+The layout in consistent for single line entries.|	For more than a single line entry, when the information overflows into two or more lines, the text does not line up properly, this makes it a bit confusing to read. |
+The list is organized in numerical order. |	There is no limit to the amount of lines. I suggest an ellipsis with an opportunity to drop down the extra lines, so that the single line format can be kept. That or there can be a max character count for the input (which is way easier to implement).|
+:octocat:| 	The list contents are not moveable, which would be nice especially if we are to use numbers to organize the list.|
+:octocat:| A meta-action to delete the single item would be nice as well.|
+:octocat:|Spacing specs for single line list was not adhered to.
