@@ -394,3 +394,63 @@ The list is organized in numerical order. |	There is no limit to the amount of l
 :octocat:| 	The list contents are not moveable, which would be nice especially if we are to use numbers to organize the list.|
 :octocat:| A meta-action to delete the single item would be nice as well.|
 :octocat:|Spacing specs for single line list was not adhered to.
+
+### :octocat: Activity 0901:
+>_"After reading section 7.2 in the text (and implementing all related code) take a read through the article Save data in a local database using Room on Android Developers. Based on your understanding developed in the textbook and from the Android Developers article, write a paragraph or two on your process portfolio summarizing your understanding of Room, its main components and how they relate to one another."_
+
+First of all, Room is like a wrapper for SQLite in that it is supposed to make the database and persistent data process easier. I suppose because the authors of the text think that we will be using Room more than SQLite as developers, that they only quickly covered the basics of SQLite before moving on to a superior form of local database implementation - Room. Databasing is a new concept to me (one that I think gets covered in detail in CPS 2), but it seems to obviously be an important and powerful tool so I will try my best to understand it.
+
+Room consists of 3 main components:
+
+1.	**The Database Class** that holds the database and acts as the access point between the app and the local persisted data.
+
+		- The app interacts directly with the database by retrieving instances of the Daos with the current value attributes (I think…).
+
+
+2.	**Data Access Objects (Dao)** that provide methods for the app to interact with the database. (As opposed to DOA which means you probably have a null pointer exception, har har)
+
+		- The app interacts directly with the Daos by retrieving entities (which represent tables and rows) from the database and the app can also update the Daos with update information in the database. Daos provide the methods needed for the app to use to interact with the database.
+
+
+3.	**Entities** that represent the tables within the database.
+
+		- The app interacts with the entities by getting and setting the field values, then using a Dao to send that info to the database. Each new instance of a specific entity represents a row in a table of the same entity type.
+
+### :octocat: Activity 0902:
+>_"The Study Helper app uses Fragments (which we aren't using in detail in this class). Fragments are a powerful (but complex) tool in Android Development. To get a better sense of what Fragments are and why you would use them read the Fragments and the Create a fragment articles on Android Developers and briefly summarize what you've learned on your process portfolio."_
+
+Fragments are similar to Activities in that they have their own life cycle, can use pre-established layouts, and can handle their own inputs.
+
+Fragments provide the developer with a way to use modularity to their advantage. Fragments are preferable when the developer wants to manage the UI of a single screen or portion of the screen.
+Fragments can be added, modified, and deleted during runtime (as interactions with the user). As a developer, you can reuse the same fragment class with multiple instances to help reduce the amount of work and rewriting that might be needed otherwise. A single instance of a fragment should have the logic necessary to manage its own UI.
+
+To implement a fragment, certain steps must be followed:
+
+1.	Add repository and dependencies to build.gradle (see https://developer.android.com/guide/fragments/create).
+
+2.	Create a class that extends Fragment or specialized children of the Fragment class such as
+DialogFragment and PreferenceFragmentCompat.
+
+3.	Add the fragment to a fragment-friendly activity. Extending AppCompatActivity creates a fragment-friendly activity.
+
+4.	Coordinate the fragment with a view (it is recommended to use a FragmentContainer view as it is more optimized for fragments)
+
+\*	A fragment can be added programmatically by using Fragment Transaction.
+
+\*	Bundles can be used to pass information in at the start of the fragment creation.
+
+
+### :octocat: Activity 0903:
+>_"Visit material.io and read the article Cards (make sure you have the Design tab - and not the Implementation tab - selected). Consider the cards used in the Study Helper app: How could they be improved, based on the recommendations in the Cards article? Summarize your thoughts on your process portfolio."
+
+Ways to improve the cards of the in the Study Helper app:
+
+-	The cards could include rich media to make them more visually appealing. (A picture with formulas for math, pyramids for history, Neo from the matrix for programming)
+
+-	Clicking on the cards currently directs the user to a new activity for the questions. It would be nice if the questions were also displayed on cards with a button to expand to see the answer for the question. Also to include all the question cards (flash cards) in a linear style, following the design suggestions on material.io, only having one scroll view activated in mobile view.
+
+-	Setting an elevation to the cards would look nice too as they just look like buttons with rounded corners at the moment.
+
+-	It would be nice to have a way to view the cards by importance where the user can ‘pick up and move’ the cards and save the relative importance of the categories.
+
+-	The hypothetical question cards could maybe include a toggle for something like if a question is understood or not. The view could then organize the questions simply by questions that are not understood first and questions that are understood at the end. Or actually, a swipe left or swipe left gesture system might work better. Swipe left = not understood, and the question is recycled or sent to the bottom of the list. Swipe right = understood, and the question is sent to the very bottom of the list. 
