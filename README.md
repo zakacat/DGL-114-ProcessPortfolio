@@ -453,4 +453,42 @@ Ways to improve the cards of the in the Study Helper app:
 
 -	It would be nice to have a way to view the cards by importance where the user can ‘pick up and move’ the cards and save the relative importance of the categories.
 
--	The hypothetical question cards could maybe include a toggle for something like if a question is understood or not. The view could then organize the questions simply by questions that are not understood first and questions that are understood at the end. Or actually, a swipe left or swipe left gesture system might work better. Swipe left = not understood, and the question is recycled or sent to the bottom of the list. Swipe right = understood, and the question is sent to the very bottom of the list. 
+-	The hypothetical question cards could maybe include a toggle for something like if a question is understood or not. The view could then organize the questions simply by questions that are not understood first and questions that are understood at the end. Or actually, a swipe left or swipe left gesture system might work better. Swipe left = not understood, and the question is recycled or sent to the bottom of the list. Swipe right = understood, and the question is sent to the very bottom of the list.
+
+### :octocat: Activity 1001:
+>_"After reading sections 8.1 and 8.2 consider the types of tasks in an app that would necessarily be asynchronous (this may also require considering a particular type of app). Create a list of at least 10 asynchronous tasks that you might typically expect to see in a wide variety of apps - do some research if necessary. Write your list and summarize your findings on your process portfolio."_
+
+**ASYNCHRONOUS TASKS** | **EXAMPLE APPS**
+-----------------------|-----------------
+Downloading more information | Reddit is Fun / Facebook / Instagram
+Updating Software | Google Play / Samsung/ Android
+Playing Music | Samsung Music / Spotify / Itunes
+GPS Tracking | Uber / Adidias Run / Tinder
+Step Counting | Adidas Run / Fit Bit App /
+Background Clock | Alarm Clock / Calendar
+Updating Emails | Outlook / Gmail
+Updating Messages | WhatsApp / Messenger / Discord / Slack
+Updating Notifications | Facebook / Instagram / YouTube
+Audio Recording | Voice Recording / Phone / Messenger
+Compiling | Power Director / YouCut / YouTube
+
+
+### :octocat: Activity 1002:
+>_"Notifications are added to the Timer app in section 8.5 in the text. Read through the Notifications Overview article on Android Developers to get a sense o the breadth of possibility with notifications. Use your process portfolio to summarize some of the main concerns you should consider when implementing notifications in your app."_
+
+There is actually quite a lot of customizability that can be done with notifications especially in the higher API levels. I think the largest concerns that come with notifications are first privacy, and then abiding by how the user wants to be notified. Setting the notifications is a bit complicated, but there are many settings that can be adjusted.
+
+**Regarding privacy we must consider:**
+-	Should the notification be shown on lock screen or not?
+-	How much information should the notification display?
+- Could the notification information potentially be sensitive information?
+
+**Regarding notification properties:**
+-	Should there be a head-ups notifications?
+-	Should there be an audible notification?
+-	Should there be a light notification?
+-	What channel does the notification belong to (above a certain API)?
+-	What icon should be used in the status bar?
+-	Should a notification dot be shown or not?
+-	Is the notification expandable?
+-	Can the user interact with the notification with buttons, gestures, or text input?
