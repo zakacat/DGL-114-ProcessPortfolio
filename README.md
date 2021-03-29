@@ -404,7 +404,7 @@ Room consists of 3 main components:
 
 1.	**The Database Class** that holds the database and acts as the access point between the app and the local persisted data.
 
-		- The app interacts directly with the database by retrieving instances of the Daos with the current value attributes (I think…).
+	- The app interacts directly with the database by retrieving instances of the Daos with the current value attributes (I think…).
 
 
 2.	**Data Access Objects (Dao)** that provide methods for the app to interact with the database. (As opposed to DOA which means you probably have a null pointer exception, har har)
