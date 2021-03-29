@@ -506,11 +506,11 @@ There is actually quite a lot of customizability that can be done with notificat
 
 -	**Property Animation** - A tween animation that changes the property of an object over time. A property animation can modify more properties than a View animation. Uses a time interpolator to affect how the object animates over time. Contains 3 main tools for implementing animation:		
 
-		1.	**Value Animator** - An object that is used to calculate general values that change over time.
+		*	**Value Animator** - An object that is used to calculate general values that change over time.
 
-		2.	**Object Animator** - A subclass of value animator that provides simpler methods for translate, rotate, scale , and transparency.
+		*	**Object Animator** - A subclass of value animator that provides simpler methods for translate, rotate, scale , and transparency.
 
-		3.	**Animator Set** - Used to group animations and how their display is ordered. 		
+		*	**Animator Set** - Used to group animations and how their display is ordered. 		
 
 
 ### :octocat: Activity 1103:
@@ -526,4 +526,4 @@ A button could display an animation of an icon, or it could inflate an activity 
 
 There are several different ways that a developer could customize an app’s animations. They could adjust the speed, path of motion, oscillation, transition pattern, elevation, or stagger.
 
-A combination of motion type and customization can lead to a very dynamic and memorable experience for the user, but these animations should not be implemented thoughtlessly. 
+A combination of motion type and customization can lead to a very dynamic and memorable experience for the user, but these animations should not be implemented thoughtlessly.
