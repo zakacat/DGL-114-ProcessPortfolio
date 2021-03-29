@@ -492,3 +492,38 @@ There is actually quite a lot of customizability that can be done with notificat
 -	Should a notification dot be shown or not?
 -	Is the notification expandable?
 -	Can the user interact with the notification with buttons, gestures, or text input?
+
+### :octocat: Activity 1101:
+>_"Chapter 9 presents a variety of animation types for various purposes. Use a table on your process portfolio to enumerate all animation types presented and to briefly describe each."_
+
+#### **Animation Types & Description**
+
+**Frame-by-Frame** - Displays a list of images in quick succession
+
+**Tween** - Performs a series of digital transformations on the image/s
+
+-	**View Animation** - A tween animation used on a View object. An animation resource for a view animation is stored in a res/anim.
+
+-	**Property Animation** - A tween animation that changes the property of an object over time. A property animation can modify more properties than a View animation. Uses a time interpolator to affect how the object animates over time. Contains 3 main tools for implementing animation:		
+
+		1.	**Value Animator** - An object that is used to calculate general values that change over time.
+
+		2.	**Object Animator** - A subclass of value animator that provides simpler methods for translate, rotate, scale , and transparency.
+
+		3.	**Animator Set** - Used to group animations and how their display is ordered. 		
+
+
+### :octocat: Activity 1103:
+>_"Visit material.io and read the article Understanding motion. Additionally, check out any related articles that you find interesting. What have you learned about the principles of designing for motion in smartphone apps? Summarize your thoughts on your process portfolio."_
+
+Motion can be added to many transitions in many different aspects of the app.
+
+Usually adding more elaborate animation techniques will display a more playful nature via the app. This could be an overall more enjoyable experience, or it could be a distraction/annoyance depending on the type of app. It seems to be business or pleasure that separates theses viewpoints.
+
+Personally, I am quite utilitarian, but I understand the appeal of design and branding. I would like to make an app transition in a basic way, I think, but add animation to convey information and maybe create something playful with the logo or loading screen. I would also like to preserve some of the ram for the user’s other apps...
+
+A button could display an animation of an icon, or it could inflate an activity or dialog from the icon (container transform pattern). Other types of animations to consider are things like feedback elements, loading lists/elements animation, card motion for recycler views, motion to inform the user about types of gesture detection, and motion to inform locations of items (if they are off-screen).
+
+There are several different ways that a developer could customize an app’s animations. They could adjust the speed, path of motion, oscillation, transition pattern, elevation, or stagger.
+
+A combination of motion type and customization can lead to a very dynamic and memorable experience for the user, but these animations should not be implemented thoughtlessly. 
