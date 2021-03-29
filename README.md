@@ -409,12 +409,12 @@ Room consists of 3 main components:
 
 2.	**Data Access Objects (Dao)** that provide methods for the app to interact with the database. (As opposed to DOA which means you probably have a null pointer exception, har har)
 
-		- The app interacts directly with the Daos by retrieving entities (which represent tables and rows) from the database and the app can also update the Daos with update information in the database. Daos provide the methods needed for the app to use to interact with the database.
+	- The app interacts directly with the Daos by retrieving entities (which represent tables and rows) from the database and the app can also update the Daos with update information in the database. Daos provide the methods needed for the app to use to interact with the database.
 
 
 3.	**Entities** that represent the tables within the database.
 
-		- The app interacts with the entities by getting and setting the field values, then using a Dao to send that info to the database. Each new instance of a specific entity represents a row in a table of the same entity type.
+	- The app interacts with the entities by getting and setting the field values, then using a Dao to send that info to the database. Each new instance of a specific entity represents a row in a table of the same entity type.
 
 ### :octocat: Activity 0902:
 >_"The Study Helper app uses Fragments (which we aren't using in detail in this class). Fragments are a powerful (but complex) tool in Android Development. To get a better sense of what Fragments are and why you would use them read the Fragments and the Create a fragment articles on Android Developers and briefly summarize what you've learned on your process portfolio."_
@@ -506,11 +506,11 @@ There is actually quite a lot of customizability that can be done with notificat
 
 -	**Property Animation** - A tween animation that changes the property of an object over time. A property animation can modify more properties than a View animation. Uses a time interpolator to affect how the object animates over time. Contains 3 main tools for implementing animation:		
 
-		*	**Value Animator** - An object that is used to calculate general values that change over time.
+	1.	**Value Animator** - An object that is used to calculate general values that change over time.
 
-		*	**Object Animator** - A subclass of value animator that provides simpler methods for translate, rotate, scale , and transparency.
+	2.	**Object Animator** - A subclass of value animator that provides simpler methods for translate, rotate, scale , and transparency.
 
-		*	**Animator Set** - Used to group animations and how their display is ordered. 		
+	3.	**Animator Set** - Used to group animations and how their display is ordered. 		
 
 
 ### :octocat: Activity 1103:
